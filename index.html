@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Login</title>
+    
     <script defer src="Login Page.js"></script>
 
     <!-- there’s a defer attribute in the <script> tag so that the JavaScript script is only executed after the HTML is fully loaded. -->
 
     <link rel="stylesheet" href="Login page.css">
+    
 </head>
 
 <body>
@@ -17,19 +21,23 @@
     <main id="main-holder">
 
         <!-- main element to wrap all the contents of the page -->
+        
         <!-- While <main> and the other semantic elements are functionally the same as <div>s in the sense that they wrap other elements, the former provide the browser more information about the contents of web pages and facilitate the work of tools like screen readers, which are essential to make the web more accessible. -->
         
         <h1 id="login-header">Login</h1>
 
         <div id="login-error-msg-holder">
+            
             <p id="login-error-msg">Invalid username<span id="error-msg-second-line">and/or password</span>
             </p>
+            
         </div>
         
         <!-- error message div-->
 
 
         <form id="login-form">
+            
             <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Enter username">
 
             <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Enter password">
@@ -37,6 +45,9 @@
             <input type="submit" value="Login" id="login-form-submit">
 
         </form>
+        
     </main>
+    
 </body>
+    
 </html>
