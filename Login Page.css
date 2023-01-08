@@ -1,5 +1,6 @@
 html {
-    height: 100%; /* make us eof the entire page */
+    height: 100%; 
+    /* make us eof the entire page */
 }
 /*  tag name selector - html, used as selectors */
 
@@ -43,11 +44,13 @@ body {
     color: #8a0000;
     border: 1px solid #8a0000;
     background-color: #e58f8f;
-    opacity: 0; /*will be visible when the user enters invalid credential - using JS*/
+    opacity: 0; 
+    /*will be visible when the user enters invalid credential - using JS*/
 }
 
 #error-msg-second-line {
-    display: block; /*to make the second half of the text shown as new line of text we set as block*/
+    display: block; 
+    /*to make the second half of the text shown as new line of text we set as block*/
 }
 
 #login-form {
